@@ -111,6 +111,8 @@ main>section, article {
 	text-align: right;
 	text-decoration: none;
 	display: block;
+	transition: all .5s;
+	transform: rotate(0px);
 }
 
 .major-navigation > ul li:nth-of-type(2) a {
@@ -120,7 +122,9 @@ main>section, article {
 
 .major-navigation > ul a:focus, .major-navigation > ul a:hover {
 	text-decoration: underline;
+	transform: rotateY(360px) translateY(20px);
 }
+
 
 /* Major Navigation Controls */
 
